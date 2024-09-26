@@ -1,0 +1,38 @@
+{
+  "languageSwitcher": {
+    "title": "Language",
+    "en": "English",
+    "fr": "French"
+  },
+  "header": {
+    "title": "Biogasview",
+    "home": "Home",
+    "about": "About",
+    "language": {
+      "title": "Language",
+      "en": "English",
+      "fr": "French"
+    }
+  },
+  "homePage": {
+    "title": "Hello world!",
+    "description": "You are on the homepage of Biogasview. This application is an example for the Biogasview showcase site. You can navigate to the About page to learn more about us.",
+    "blocks": [
+      {
+        "title": "Block 1",
+        "description": "This is block 1 of the homepage."
+      },
+      {
+        "title": "Block 2",
+        "description": "This is block 2 of the homepage."
+      },
+      {
+        "title": "Block 3",
+        "description": "This is block 3 of the homepage."
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "About us"
+  }
+}

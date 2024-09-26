@@ -1,0 +1,38 @@
+{
+  "languageSwitcher": {
+    "title": "Language",
+    "en": "English",
+    "fr": "French"
+  },
+  "header": {
+    "title": "Biogasview",
+    "home": "Accueil",
+    "about": "À propos",
+    "language": {
+      "title": "Langue",
+      "en": "Anglais",
+      "fr": "Français"
+    }
+  },
+  "homePage": {
+    "title": "Bonjour le monde!",
+    "description": "Vous êtes sur la page d'accueil de Biogasview. Cette application est un exemple pour le site vitrine de Biogasview. Vous pouvez naviguer vers la page À propos pour en savoir plus sur nous.",
+    "blocks": [
+      {
+        "title": "Bloc 1",
+        "description": "Ceci est le bloc 1 de la page d'accueil."
+      },
+      {
+        "title": "Bloc 2",
+        "description": "Ceci est le bloc 2 de la page d'accueil."
+      },
+      {
+        "title": "Bloc 3",
+        "description": "Ceci est le bloc 3 de la page d'accueil."
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "À propos de nous"
+  }
+}
