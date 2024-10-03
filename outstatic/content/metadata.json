@@ -1,6 +1,6 @@
 {
-  "commit": "2c271dfa5e29eab9bdc567f23c0dd563c7052da9",
-  "generated": "2024-10-03T13:50:46.253Z",
+  "commit": "94353e4dc44fb6597aa7b20075266db095076fe5",
+  "generated": "2024-10-03T13:51:00.698Z",
   "metadata": [
     {
       "__outstatic": {
@@ -22,8 +22,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2c271dfa5e29eab9bdc567f23c0dd563c7052da9",
-        "hash": "3585526974",
+        "commit": "94353e4dc44fb6597aa7b20075266db095076fe5",
+        "hash": "2864127971",
         "path": "outstatic/content/fr-posts/methanisation.md"
       },
       "author": {
@@ -36,7 +36,7 @@
       "publishedAt": "2024-10-03T13:57:38.315Z",
       "slug": "methanisation",
       "status": "published",
-      "title": "methanization"
+      "title": "Methanization"
     }
   ]
 }

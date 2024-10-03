@@ -1,5 +1,5 @@
 ---
-title: 'methanization'
+title: 'Methanization'
 status: 'published'
 author:
   name: 'Quentin VERDIER'
