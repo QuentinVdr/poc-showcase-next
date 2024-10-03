@@ -15,6 +15,9 @@ export default function Header() {
         <Link className="hover:underline" href="/about">
           {t('about')}
         </Link>
+        <Link className="hover:underline" href="/blog">
+          {t('blog')}
+        </Link>
       </nav>
       <LanguageSwitcher />
     </header>
