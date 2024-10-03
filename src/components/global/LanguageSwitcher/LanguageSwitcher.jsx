@@ -50,7 +50,7 @@ export default function LanguageSwitcher({ className = '' }) {
       </div>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+        <div className="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black/5">
           <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
             {languages.map((lang) => (
               <button
