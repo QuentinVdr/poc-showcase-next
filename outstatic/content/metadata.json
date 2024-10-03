@@ -1,0 +1,24 @@
+{
+  "commit": "748972363a9d92f5167eb367cff3c2646ccd28b5",
+  "generated": "Thu, 03 Oct 2024 13:48:48 GMT",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "f86aac0310e2c8c8dd1d03c147c4b1de75e27adb",
+        "hash": "3137255292",
+        "path": "outstatic/content/fr-posts/methanisation.md"
+      },
+      "author": {
+        "name": "Quentin VERDIER",
+        "picture": "https://avatars.githubusercontent.com/u/56938113?v=4"
+      },
+      "collection": "fr-posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-03T13:57:38.315Z",
+      "slug": "methanisation",
+      "status": "published",
+      "title": "Méthanisation"
+    }
+  ]
+}
