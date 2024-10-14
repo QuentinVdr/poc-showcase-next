@@ -1,10 +1,10 @@
+import { getPostList } from '@api/OutstaticRequest';
 import { Link } from '@i18n/routing';
 import { useLocale } from 'next-intl';
-import { getDocuments } from 'outstatic/server';
 
 export default function BlogPage() {
   const locale = useLocale();
-  const posts = getData(locale);
+  const posts = getPostList(locale);
 
   return (
     <main className="mx-auto my-4 flex w-11/12 max-w-6xl flex-col gap-4">
@@ -15,12 +15,4 @@ export default function BlogPage() {
       ))}
     </main>
   );
-}
-
-function getData(locale) {
-  const posts = getDocuments(`${locale}-posts`, ['title', 'slug']);
-
-  console.log('🚀 ~ getData ~ posts:', posts);
-
-  return posts;
 }

@@ -1,10 +1,10 @@
 ---
-title: 'Methanization'
+title: 'Méthanisation'
 status: 'published'
 author:
   name: 'Quentin VERDIER'
   picture: 'https://avatars.githubusercontent.com/u/56938113?v=4'
-slug: 'methanisation'
+slug: 'methanization'
 description: ''
 coverImage: ''
 publishedAt: '2024-10-03T13:57:38.315Z'
