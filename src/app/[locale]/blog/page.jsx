@@ -1,9 +1,7 @@
-import { getPostList } from '@api/OutstaticRequest';
 import { Link } from '@i18n/routing';
-import { useLocale } from 'next-intl';
+import { getDocuments } from 'outstatic/server';
 
-export default function BlogPage() {
-  const locale = useLocale();
+export default function BlogPage({ params: { locale } }) {
   const posts = getPostList(locale);
 
   return (
@@ -15,4 +13,8 @@ export default function BlogPage() {
       ))}
     </main>
   );
+}
+
+function getPostList(locale) {
+  return getDocuments(`${locale}-posts`, ['title', 'slug']);
 }
