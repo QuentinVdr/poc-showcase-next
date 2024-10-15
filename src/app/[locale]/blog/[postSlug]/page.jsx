@@ -2,10 +2,10 @@ import { getDocumentBySlug } from 'outstatic/server';
 import markdownToHtml from 'src/utils/MarkdownToHtml';
 
 export default async function BlogPostPage({ params: { locale, postSlug } }) {
-  const post = await getData(locale, postSlug);
+  const post = await getPostBySlug(locale, postSlug);
 
   return (
-    <main className="mx-auto my-4 w-11/12 max-w-6xl">
+    <main className="mx-auto my-4 w-10/12 max-w-6xl">
       {!post ? (
         <p>pas de post trouvé</p>
       ) : (
@@ -18,7 +18,7 @@ export default async function BlogPostPage({ params: { locale, postSlug } }) {
   );
 }
 
-async function getData(locale, slug) {
+async function getPostBySlug(locale, slug) {
   const post = getDocumentBySlug(`${locale}-posts`, slug, ['title', 'content']);
 
   const content = await markdownToHtml(post.content);
