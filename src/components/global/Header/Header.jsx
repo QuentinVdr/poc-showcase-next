@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="flex flex-row items-center gap-8 bg-primary-600 px-4 py-2.5 text-white">
       <span className="text-xl font-bold">{t('title')}</span>
-      <nav className="flex flex-row items-center gap-4 text-lg">
+      <nav className="flex flex-row items-center gap-2 text-lg">
         <Link
           className="rounded-xl px-3 py-1 font-semibold text-white no-underline hover:bg-primary-700 hover:text-primary-200"
           href="/"

@@ -11,11 +11,11 @@ export async function generateMetadata({ params: { locale, postSlug } }) {
     openGraph: {
       title: post.title,
       description: post?.description || post.content,
-      // url: absoluteUrl(`/posts/${postSlug}`),
+      url: `/blog/${postSlug}`,
       type: 'article',
       images: [
         {
-          // url: absoluteUrl(post?.coverImage || '/images/og-image.png'),
+          url: post?.coverImage,
           alt: post.title,
         },
       ],
