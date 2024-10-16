@@ -31,15 +31,17 @@ export default async function BlogPostPage({ params: { locale, postSlug } }) {
       {!post ? (
         <p>pas de post trouvé</p>
       ) : (
-        <div className="prose lg:prose-xl">
+        <article>
           {post.coverImage && (
             <div className="relative mb-2 h-52 w-full sm:mx-0 md:mb-4 md:h-96">
               <Image src={post.coverImage} alt={post.title} fill className="object-cover object-center" priority />
             </div>
           )}
-          <h1>{post.title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: post.content }} />
-        </div>
+          <div className="prose mx-auto w-full self-center lg:prose-xl">
+            <h1>{post.title}</h1>
+            <div dangerouslySetInnerHTML={{ __html: post.content }} />
+          </div>
+        </article>
       )}
     </main>
   );
