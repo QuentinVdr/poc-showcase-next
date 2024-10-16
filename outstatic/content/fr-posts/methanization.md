@@ -5,8 +5,8 @@ author:
   name: 'Quentin VERDIER'
   picture: 'https://avatars.githubusercontent.com/u/56938113?v=4'
 slug: 'methanization'
-description: ''
-coverImage: 'https://www.optima-energie.fr/wp-content/uploads/2022/04/format-banniere-blog.png'
+description: 'un article qui permet de défini la méthanisation et de faire des tests'
+coverImage: '/images/sitemetha-U2Nz.png'
 publishedAt: '2024-10-03T13:57:38.315Z'
 ---
 
@@ -34,3 +34,5 @@ La méthanisation c'est ...
 | --- | --- | --- |
 | test 11 | test 21 | test 31 |
 | test 12 | test 22 | test 32 |
+
+![](/images/sitemetha-kzOT.png)

@@ -1,6 +1,6 @@
 {
-  "commit": "a9033c6be3c227d399b8c9b3a2920042bd8fce77",
-  "generated": "2024-10-16T07:32:41.387Z",
+  "commit": "61dbb78265fc3c4eae5d760a2882a751aeb10d15",
+  "generated": "2024-10-16T07:36:02.622Z",
   "metadata": [
     {
       "__outstatic": {
@@ -22,8 +22,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a9033c6be3c227d399b8c9b3a2920042bd8fce77",
-        "hash": "1962655219",
+        "commit": "61dbb78265fc3c4eae5d760a2882a751aeb10d15",
+        "hash": "856737818",
         "path": "outstatic/content/fr-posts/methanization.md"
       },
       "author": {
@@ -31,8 +31,8 @@
         "picture": "https://avatars.githubusercontent.com/u/56938113?v=4"
       },
       "collection": "fr-posts",
-      "coverImage": "https://www.optima-energie.fr/wp-content/uploads/2022/04/format-banniere-blog.png",
-      "description": "",
+      "coverImage": "/images/sitemetha-U2Nz.png",
+      "description": "un article qui permet de défini la méthanisation et de faire des tests",
       "publishedAt": "2024-10-03T13:57:38.315Z",
       "slug": "methanization",
       "status": "published",
