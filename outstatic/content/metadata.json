@@ -1,6 +1,6 @@
 {
-  "commit": "082dbd23f6894b9ec49a978a4f08e0161d030ae6",
-  "generated": "2024-10-14T12:50:46.867Z",
+  "commit": "a9033c6be3c227d399b8c9b3a2920042bd8fce77",
+  "generated": "2024-10-16T07:32:41.387Z",
   "metadata": [
     {
       "__outstatic": {
@@ -22,8 +22,8 @@
     },
     {
       "__outstatic": {
-        "commit": "082dbd23f6894b9ec49a978a4f08e0161d030ae6",
-        "hash": "1268649799",
+        "commit": "a9033c6be3c227d399b8c9b3a2920042bd8fce77",
+        "hash": "1962655219",
         "path": "outstatic/content/fr-posts/methanization.md"
       },
       "author": {
@@ -31,7 +31,7 @@
         "picture": "https://avatars.githubusercontent.com/u/56938113?v=4"
       },
       "collection": "fr-posts",
-      "coverImage": "",
+      "coverImage": "https://www.optima-energie.fr/wp-content/uploads/2022/04/format-banniere-blog.png",
       "description": "",
       "publishedAt": "2024-10-03T13:57:38.315Z",
       "slug": "methanization",
