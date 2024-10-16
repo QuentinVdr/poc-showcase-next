@@ -26,7 +26,7 @@ La méthanisation c'est ...
 
 > citation de fou
 
-```htmlbars
+```null
 <p>Hello world</p>
 ```
 
