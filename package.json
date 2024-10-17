@@ -13,6 +13,7 @@
     "next": "14.2.13",
     "next-intl": "^3.20.0",
     "outstatic": "^1.4.9",
+    "postcss-load-config": "^6.0.1",
     "react": "^18",
     "react-dom": "^18",
     "remark": "^15.0.1",
