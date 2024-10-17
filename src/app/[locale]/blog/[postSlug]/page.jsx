@@ -37,9 +37,9 @@ export default async function BlogPostPage({ params: { locale, postSlug } }) {
               <Image src={post.coverImage} alt={post.title} fill className="object-cover object-center" priority />
             </div>
           )}
-          <div className="prose mx-auto w-full self-center lg:prose-xl">
+          <div className="prose mx-auto w-full self-center md:prose-lg lg:prose-xl">
             <h1>{post.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: post.content }} />
+            <article dangerouslySetInnerHTML={{ __html: post.content }} />
           </div>
         </article>
       )}
