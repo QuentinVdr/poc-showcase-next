@@ -3,8 +3,7 @@ import { useMessages, useTranslations } from 'next-intl';
 export default function HomePage() {
   const t = useTranslations('homePage');
 
-  const messages = useMessages();
-  const blocks = messages.homePage.blocks;
+  const blocks = useMessages().homePage.blocks;
 
   return (
     <main className="mx-auto my-4 flex w-10/12 max-w-6xl flex-col gap-4">
