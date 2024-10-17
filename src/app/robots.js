@@ -1,3 +1,5 @@
+import { DOMAIN } from '@utils/Constant';
+
 export default function robots() {
   return {
     rules: {
@@ -5,7 +7,7 @@ export default function robots() {
       allow: '/',
       disallow: ['/outstatic/', '/api/outstatic/'],
     },
-    sitemap: process.env.NEXT_PUBLIC_DOMAIN || 'https://localhost:3000/sitemap.xml',
-    host: process.env.NEXT_PUBLIC_DOMAIN || 'https://localhost:3000',
+    sitemap: `${DOMAIN}/sitemap.xml`,
+    host: DOMAIN,
   };
 }
