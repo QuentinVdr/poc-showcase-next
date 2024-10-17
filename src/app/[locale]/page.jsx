@@ -16,7 +16,7 @@ export default function HomePage() {
         <h4>h4</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum dolore repellendus eius in possimus
-          veniam minima id soluta numquam rerum consectetur, officiis, minus repudiandae?{' '}
+          veniam minima id soluta numquam rerum consectetur, officiis, minus repudiandae?
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {blocks.map((block) => (
