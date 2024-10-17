@@ -33,7 +33,7 @@ export default async function BlogPostPage({ params: { locale, postSlug } }) {
       ) : (
         <article>
           {post.coverImage && (
-            <div className="relative mb-2 h-52 w-full sm:mx-0 md:mb-4 md:h-96">
+            <div className="relative mb-2 h-52 w-full sm:mx-0 md:mb-4 md:h-72 lg:h-96">
               <Image src={post.coverImage} alt={post.title} fill className="object-cover object-center" priority />
             </div>
           )}
