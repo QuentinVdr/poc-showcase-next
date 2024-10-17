@@ -3,7 +3,7 @@ import { getDocuments } from 'outstatic/server';
 
 export default async function sitemap() {
   // Set your website's URL
-  const baseUrl = 'https://localhost:3000'; // TODO : Change this URL
+  const baseUrl = process.env.NEXT_PUBLIC_DOMAIN || 'https://localhost:3000';
 
   // Fetch all posts
   const postEntries = availableLanguages
