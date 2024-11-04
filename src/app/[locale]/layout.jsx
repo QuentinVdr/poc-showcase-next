@@ -16,6 +16,9 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
+      <head>
+        <link rel="icon" type="image/png" href="/favicon/favicon.png" />
+      </head>
       <body className="bg-neutral-100">
         <NextIntlClientProvider messages={messages}>
           <Header />
